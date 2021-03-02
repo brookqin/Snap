@@ -79,7 +79,7 @@ struct Handle : View {
     var body: some View {
         //RoundedRectangle(cornerRadius: handleThickness / 2.0)
 		Capsule()
-            .frame(width: 35, height: handleThickness)
+            .frame(width: 40, height: handleThickness)
 			.foregroundColor(Color(UIColor.systemFill))
             .padding(.vertical, handleVerticalPadding)
     }
